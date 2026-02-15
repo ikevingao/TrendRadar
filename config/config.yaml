@@ -41,8 +41,8 @@ app:
 # ===============================================================
 schedule:
   enabled: true                         # 是否启用调度系统
-  preset: "morning_evening"             # 预设模板名称（见上方说明）
-
+  # preset: "morning_evening"             # 预设模板名称（见上方说明）
+  preset: "always_on" 	# 全天有新增就推送，不划分时间段
 
 # ===============================================================
 # 2. 数据源 - 热榜平台
@@ -59,8 +59,8 @@ platforms:
       name: "今日头条"
     - id: "baidu"
       name: "百度热搜"
-    - id: "wallstreetcn-hot"
-      name: "华尔街见闻"
+    # - id: "wallstreetcn-hot"
+    #   name: "华尔街见闻"
     - id: "thepaper"
     - name: "澎湃新闻"
     - id: "bilibili-hot-search"
@@ -252,7 +252,7 @@ notification:
   # 推送渠道配置
   channels:
     feishu:
-      webhook_url: ""                 # 飞书机器人 webhook URL
+      webhook_url: "https://www.feishu.cn/flow/api/trigger-webhook/492e6eaddc6990cf102d9cecec8c9d32"                 # 飞书机器人 webhook URL
 
     dingtalk:
       webhook_url: ""                 # 钉钉机器人 webhook URL
