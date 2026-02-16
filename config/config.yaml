@@ -136,6 +136,10 @@ rss:
     - id: "stratechery"
       name: "Stratechery"     # 商业、科技、媒体，技术分析师
       url: "https://stratechery.com/feed/"
+
+    - id: "steve-blank"
+      name: "Steve Blank"
+      url: "https://steveblank.com/feed/"
     
     - id: "yahoo-finance"
       name: "雅虎财经"
