@@ -42,7 +42,7 @@ app:
 schedule:
   enabled: true                         # 是否启用调度系统
   # preset: "morning_evening"             # 预设模板名称（见上方说明）
-  preset: "always_on" 	# 全天有新增就推送，不划分时间段
+  preset: "always_on"                   # 全天有新增就推送，不划分时间段
 
 # ===============================================================
 # 2. 数据源 - 热榜平台
