@@ -126,6 +126,7 @@ rss:
     - id: "simon-willison"
       name: "Simon Willison"
       url: "https://simonwillison.net/atom/everything/"
+      max_age_days: 14
     
     - id: "yahoo-finance"
       name: "雅虎财经"
