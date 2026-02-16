@@ -127,6 +127,10 @@ rss:
       name: "Simon Willison"
       url: "https://simonwillison.net/atom/everything/"
       max_age_days: 7
+
+    - id: "mtlynch"
+      name: "Michael Lynch"
+      url: "https://mtlynch.io/posts/index.xml"
     
     - id: "yahoo-finance"
       name: "雅虎财经"
