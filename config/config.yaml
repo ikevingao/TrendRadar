@@ -144,6 +144,18 @@ rss:
     - id: "jgc-blog"
       name: "John Graham-Cumming" # Cloudflare CTO, 技术、博客
       url: "https://blog.jgc.org/feeds/posts/default"
+
+    - id: "filfre"
+      name: "The Digital Antiquarian" # 电脑游戏与数字文化历史
+      url: "https://www.filfre.net/feed/"
+
+    - id: "scott-aaronson"
+      name: "Shtetl-Optimized" # 量子计算、科学思考
+      url: "https://scottaaronson.blog/feed/"
+
+    - id: "tedium"
+      name: "Tedium" # 互联网与科技史冷知识
+      url: "https://tedium.co/feed"
     
     # 自定义源示例
     # - id: "custom-feed"
