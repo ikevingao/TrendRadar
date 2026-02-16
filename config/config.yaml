@@ -122,6 +122,10 @@ rss:
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
       # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
+
+    - id: "simon-willison"
+      name: "Simon Willison"
+      url: "https://simonwillison.net/atom/everything/"
     
     - id: "yahoo-finance"
       name: "雅虎财经"
