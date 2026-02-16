@@ -124,7 +124,7 @@ rss:
       # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
 
     - id: "simon-willison"
-      name: "Simon Willison"
+      name: "Simon Willison"   # 人工智能、数据新闻、博客
       url: "https://simonwillison.net/atom/everything/"
       max_age_days: 7
 
@@ -138,14 +138,13 @@ rss:
       url: "https://stratechery.com/feed/"
 
     - id: "steve-blank"
-      name: "Steve Blank"
+      name: "Steve Blank"     # 创业公司、创业精神、精益创业方法论
       url: "https://steveblank.com/feed/"
-    
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
 
+    - id: "jgc-blog"
+      name: "John Graham-Cumming" # Cloudflare CTO, 技术、博客
+      url: "https://blog.jgc.org/feeds/posts/default"
+    
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
