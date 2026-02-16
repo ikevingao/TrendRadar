@@ -129,8 +129,13 @@ rss:
       max_age_days: 7
 
     - id: "mtlynch"
-      name: "Michael Lynch"
+      name: "Michael Lynch"   # Hacker News top 1
       url: "https://mtlynch.io/posts/index.xml"
+      max_age_days: 3
+
+    - id: "stratechery"
+      name: "Stratechery"     # 商业、科技、媒体，技术分析师
+      url: "https://stratechery.com/feed/"
     
     - id: "yahoo-finance"
       name: "雅虎财经"
